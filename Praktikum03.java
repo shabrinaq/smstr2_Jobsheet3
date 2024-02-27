@@ -8,9 +8,9 @@ public class Praktikum03 {
     public int lebar;
 }
 
-public PersegiPanjang(int p, int l) {
-    panjang = p;
-    lebar = l;
+public void PersegiPanjang(int p, int l) {
+   int panjang = p;
+   int lebar = l;
 }
   
 }
