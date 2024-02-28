@@ -1,8 +1,5 @@
+import java.util.Scanner;
 
-
-/**
- * Praktikum03
- */
 public class Praktikum03 {
     public static class PersegiPanjang {
         public int panjang;
@@ -13,12 +10,10 @@ public class Praktikum03 {
             this.lebar = lebar;
         }
 
-        public int hitungLuas() {
-            return (panjang * lebar);
+        public void cetakInfo() {
+            System.out.println("Panjang: " + panjang);
+            System.out.println("Lebar: " + lebar);
         }
-
-        public int hitungKeliling() {
-            return 2 * (panjang + lebar);
+        
         }
     }
-}
